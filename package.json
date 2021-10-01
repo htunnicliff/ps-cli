@@ -1,0 +1,27 @@
+{
+  "name": "ps-cli",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./bin/run.js",
+  "license": "MIT",
+  "bin": {
+    "ps-cli": "bin/run.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    ".gitignore",
+    "package.json",
+    "yarn.lock"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "conf": "^10.0.3",
+    "dotenv": "^10.0.0",
+    "execa": "^5.1.1",
+    "meow": "^10.1.1",
+    "ora": "^6.0.1",
+    "paperspace-node": "^0.2.4",
+    "prompts": "^2.4.1"
+  }
+}
