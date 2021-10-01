@@ -5,7 +5,7 @@
   "main": "./bin/run.js",
   "license": "MIT",
   "bin": {
-    "ps-cli": "bin/run.js"
+    "ps-cli": "./bin/run.js"
   },
   "files": [
     "bin",
